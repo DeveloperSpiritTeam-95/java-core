@@ -21,6 +21,39 @@
             <artifactId>ojdbc14</artifactId>
             <version>10.2.0.3.0</version>
         </dependency>-->
+<!--RemoteProcedureCall Example Dependency work in spring boot project
+    this is only on LLD as well core so you can learn on Restful projects-->
+        <!--<dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-netty-shaded</artifactId>
+            <version>1.54.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-protobuf</artifactId>
+            <version>1.54.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-stub</artifactId>
+            <version>1.54.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.23.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-tcnative-boringssl-static</artifactId>
+            <version>2.0.61.Final</version>
+            <scope>runtime</groupId>
+        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>3.3.0</version>
+        </dependency>
 
         <dependency>
             <groupId>com.amazonaws</groupId>

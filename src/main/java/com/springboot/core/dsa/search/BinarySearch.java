@@ -30,7 +30,7 @@ public class BinarySearch {
         middle = (first + last) / 2;
 
         while (first <= last) {
-
+            //middle = first + (last - first) / 2;
             if (array[middle] < search) {
                 first = middle + 1;
             } else if (array[middle] == search) {

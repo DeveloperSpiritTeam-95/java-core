@@ -1,6 +1,7 @@
 package com.springboot.core.basic;
 
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author prabhakar, @Date 20-09-2024
@@ -12,6 +13,7 @@ public class RandomStringGenerator {
         String finalString = "APP-" + randomNumber + "-" + randomString;
 
         System.out.println(finalString);
+
     }
 
     private static String generateRandomString() {

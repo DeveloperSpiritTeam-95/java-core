@@ -1,0 +1,14 @@
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+INFO: This is an INFO message.
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+WARNING: This is a WARNING message.
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+SEVERE: This is an ERROR message.
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+FINE: This is a FINE message.
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+FINER: This is a FINER message.
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+FINEST: This is a FINEST message.
+May 15, 2025 5:47:38 PM com.springboot.core.basic.LoggerExample main
+INFO: This is a INFO message.

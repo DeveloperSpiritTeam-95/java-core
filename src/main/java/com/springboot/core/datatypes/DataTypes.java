@@ -4,7 +4,7 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 		
-		// 1Byte =8 bits
+		// 1Byte = 8 bits
 		byte b=-128;
 		byte b1=127;
 		// byte b2=128;

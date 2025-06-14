@@ -29,7 +29,7 @@ public class Content {
 
           When we open Microsoft Word, it becomes a process in the operating system.
 
-      ==> Thread: It is a smallest unit of execution within a process. A process can have multiple
+      ==> Thread: It is the smallest unit of execution within a process. A process can have multiple
           threads, which share the same resources but can run independently.
 
           A Web browser like Google Chrome or edge or brave ect, might use multiple threads for
@@ -41,6 +41,7 @@ public class Content {
           The OS scheduler balances the load, ensuring efficient and responsive system performance.
             Example:
                 we are browsing the internet while listening to music and downloading files.
+
           --> multitasking utilizes the capabilities of a CPU and its cores. When an operating system
               performs multitasking, it can assign different tasks to different cores. This is more
               efficient than assigning all tasks to single core.

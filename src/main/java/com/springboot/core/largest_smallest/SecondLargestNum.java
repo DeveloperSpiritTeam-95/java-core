@@ -15,12 +15,12 @@ public class SecondLargestNum {
         if (secondLargest != Integer.MIN_VALUE) {
             System.out.println("The second largest number is: " + secondLargest);
         } else {
-            System.out.println("There is no second largest number.");
+            System.out.println("There is no second largest number. you given: "+numbers[0]);
         }
 
     }
 
-    public static int findSecondLargest(int ...nums){
+    public static int findSecondLargest(int ...nums){ // varargs method
         if (nums == null || nums.length < 2) {
             return Integer.MIN_VALUE; // Indicating no second-largest number
         }

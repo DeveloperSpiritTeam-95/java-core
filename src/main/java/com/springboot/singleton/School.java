@@ -18,4 +18,8 @@ public class School {
         }
         return instance;
     }
+
+    public void doSomething() {
+        System.out.println("School.doSomething() called");
+    }
 }

@@ -11,5 +11,17 @@ public class Test {
         School.getInstance();
         School.getInstance();
         School.getInstance();
+
+        // School school4 = new School();
+        // 'School()' has private access in 'com.springboot.singleton.School'
+
+        LazySingleton.getInstance();
+        LazySingleton.getInstance();
+
+        EagerSingleton.getInstance();
+        EagerSingleton.getInstance();
+
+
+        // EnumSingleton.INSTANCE.doSomething();
     }
 }

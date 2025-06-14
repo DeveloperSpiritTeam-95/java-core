@@ -15,8 +15,13 @@ public class ReverseString {
 
 		//Built in function
 
-		StringBuilder sb=new StringBuilder(name);
+		StringBuilder sb=new StringBuilder(reverse);
 		sb.reverse();
 		System.out.println(sb);
+
+
+		StringBuffer sb2=new StringBuffer(sb);
+		sb2.reverse();
+		System.out.println(sb2);
 	}
 }

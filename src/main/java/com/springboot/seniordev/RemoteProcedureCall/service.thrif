@@ -1,0 +1,7 @@
+package com.springboot.seniordev.RemoteProcedureCall;
+
+namespace java example
+
+service GreetingService {
+    string sayHello(1: string name);
+}

@@ -11,14 +11,22 @@ public class ReverseString {
         String[] splitName = name.split(" ");
         String string = "";
 
-        for (String str: splitName) {
-            for (int i = str.length()-1;i>=0;i--){
+        for (String str : splitName) {
+            for (int i = str.length() - 1; i >= 0; i--) {
                 string += str.charAt(i);
             }
-            string +=" ";
+            string += " ";
         }
 
         System.out.println(string);
+
+        String text = """
+                Line 1
+                Line 2
+                """;
+
+        System.out.println(text.stripIndent()); // Removes unnecessary indentation
+
 
     }
 }
